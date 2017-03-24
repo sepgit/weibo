@@ -1,0 +1,52 @@
+body,p,div,h1,h2,h3,h4,ul,li,ol,li,table,dd,dt,form,a,img,em,i,strong,b,label,input,select,option,textarea{margin: 0;padding: 0;}
+a{ color:#000000;text-decoration: none;}   
+a:hover{ color:#ff1111;}
+li{list-style:none ;}
+i{font-style: normal;}
+img{border:0 none;vertical-align:top}
+body{font-family: "宋体";font-size:14px;color:#000000;background: url(../img/sinabg.jpg) repeat-x #bde3f7;}
+/*清浮动*/
+.clearfix{*zoom:1}
+.clearfix:after{height: 0;font-size: 0;display: block;visibility:hidden;clear: both;content:"." ;}
+/*head*/
+.s1{width: 100%;height: auto;margin: 0 auto;}
+.layer{width:900px;height: auto;margin: 0 auto;}
+.head{background:url(../img/sinalogo.jpg) no-repeat center center;height: 182px;}
+.top{height: 2px;border-top: solid 2px #ff0000;}
+
+.task1 {width: 868px ;height:531px ;background: url(../img/tk1-bg.png) no-repeat;padding-left: 51px;}
+.tkleft{width: 410px; padding-top: 33px;}
+.tkleft a{float: left;height: 26px;font-size: 24px;font-family: "微软雅黑";line-height: 24px;}
+.s2{float: left;width: 1px;height: 16px;margin: 5px 21px 0 20px; background: #f2f2f2;}
+
+
+.self{border-bottom: solid #ffa00a 3px}
+/*表格*/
+.main{padding-top:35px;}
+.mainleft{width: 590px;float: left;}
+.leftlabel label{width: 136px;line-height: 28px;font-size: 14px;text-align: right;float: left;padding-right:5px ;}
+.leftlabel{width:100%;margin: 16px 0 9px ;height: 28px;float: left;}
+.main input{height: 26px;width: 193px;border: 1px solid #cac8c8;float: left;padding-left: 5px;}
+.leftlabel1 input{height: 26px;width: 72px;border: 1px solid #cac8c8;float: left;padding-left: 5px;}
+.email{float: left;margin-left:140px;height: 15px;}
+.leftlabel span{color: #FF0000;}
+.email a{color:#247eed}
+.emailicon{background: url(../img/tk1info.png) no-repeat 58px 2px ;}
+
+.login{float:left; margin:27px 0 0 141px ;background: #ffe3b6;border: 1px solid #ffbc53;border-radius:1px ;padding: 1px;}
+.login input{width:192px;height:38px;background: #ffa00a ;display:block;font-size:18px;color:#ffffff;border: 0 none;}
+
+.txt{ margin: 8px 0 0 139px;  float: left;}
+.txt a{width: 300px;line-height: 18px;font-size: 12px;color: #247eed;}
+/*右*/
+
+.mainright{margin:0 42px 0 590px;padding-left:31px;}
+.txt2{line-height: 33px;height: 33px;font-size: 14px;}
+.border{border-bottom: 1px dotted #cccccc;}
+.txt3 dt{line-height: 33px;font-size: 14px;}
+.txt3 dd{line-height: 22px;color:#948c8c}
+.txt3 strong{color: #ffa00a;}
+/*脚步*/
+.footer{line-height: 50px;font-size: 12px;color: #8a95a3;width: 900px;margin: 0 auto;}
+.footer span{margin-right: 175px;}
+
